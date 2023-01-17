@@ -2,22 +2,12 @@
 	"node": "n8n-nodes-base.jsonAta",
 	"nodeVersion": "1.0",
 	"codexVersion": "1.0",
-	"categories": [
-		"Core Nodes"
-	],
+	"categories": ["Utility"],
 	"resources": {
 		"primaryDocumentation": [
 			{
-				"url": "https://docs.n8n.io/nodes/n8n-nodes-base.jsonAta/"
+				"url": "https://github.com/lublak/n8n-nodes-jsonata"
 			}
-		]
-	},
-	"alias": [
-		"Query"
-	],
-	"subcategories": {
-		"Core Nodes": [
-			"Helpers"
 		]
 	}
 }
