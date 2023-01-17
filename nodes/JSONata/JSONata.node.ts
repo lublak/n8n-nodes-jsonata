@@ -60,7 +60,7 @@ export class JSONata implements INodeType {
       const destinationKey = this.getNodeParameter('destinationKey', 0) as string;
       const query = this.getNodeParameter('query', 0) as string;
       const data: IDataObject = {};
-      set(data, destinationKey, jsonata(query).evaluate(items.map((item) => item.json)));
+      set(data, destinationKey, await jsonata(query).evaluate(items.map((item) => item.json)));
       return this.prepareOutputData([{ json: data }]);
     } else {
       let destinationKey;
@@ -84,7 +84,7 @@ export class JSONata implements INodeType {
           Object.assign(newItem.binary, item.binary);
         }
 
-        set(newItem.json, destinationKey, jsonata(query).evaluate(item.json));
+        set(newItem.json, destinationKey, await jsonata(query).evaluate(item.json));
         returnData.push(newItem);
       }
       return this.prepareOutputData(returnData);
