@@ -1,3 +1,4 @@
+// eslint-disable-line n8n-nodes-base/node-filename-against-convention
 import jsonata from 'jsonata';
 import { set } from 'lodash';
 import { IExecuteFunctions } from 'n8n-core';
@@ -10,6 +11,7 @@ export class JSONata implements INodeType {
   description: INodeTypeDescription = {
     displayName: 'JSONata',
     name: 'jsonata',
+    // eslint-disable-next-line n8n-nodes-base/node-class-description-icon-not-svg
     icon: 'file:JSONata.png',
     group: ['transform'],
     version: 1,
