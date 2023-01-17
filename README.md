@@ -10,6 +10,6 @@
 
 1. Go to Settings (Cogwheel)
 2. Click on "Community Nodes"
-3. Enter "n8n-nodes-jsonata" into the text box.
+3. Enter "n8n-nodes-jsonata" into the text box
 4. Click on "I understand the risk ..."
 5. Click on "Install"
