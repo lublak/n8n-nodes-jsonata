@@ -10,6 +10,7 @@ export class JSONata implements INodeType {
   description: INodeTypeDescription = {
     displayName: 'JSONata',
     name: 'jsonata',
+    icon: 'file:JSONata.png',
     group: ['transform'],
     version: 1,
     description: 'Use the JSONata query and transformation language.',
