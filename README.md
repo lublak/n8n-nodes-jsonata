@@ -1,4 +1,6 @@
-![Node Image](/assets/jsonata/icon.png)
+<p align="center">
+  <img width="180" height="180" src="/assets/jsonata/icon.png">
+</p>
 
 # n8n-nodes-jsonata
 
