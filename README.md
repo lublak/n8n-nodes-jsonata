@@ -1,3 +1,5 @@
+![Node Image](/assets/jsonata/icon.png)
+
 # n8n-nodes-jsonata
 
 [![version](https://img.shields.io/npm/v/n8n-nodes-jsonata.svg)](https://www.npmjs.org/package/n8n-nodes-jsonata)
@@ -6,7 +8,7 @@
 
 ## Install
 
-![This is an image](/assets/install.gif)
+![Settings Animation](/assets/install.gif)
 
 1. Go to Settings (Cogwheel)
 2. Click on "Community Nodes"
